@@ -7,6 +7,10 @@ Simple, HTML/CSS one page profile
   - See the HTML in the right
   - Magic
 
+Profiles in use:
+
+* [Arran Ross-Paterson]
+
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
 
 > The overriding design goal for Markdown's
@@ -54,7 +58,7 @@ License
 MIT
 
 *Free Software, Fuck Yeah!*
-
+  [Arran Ross-Paterson]: http://welikepie.com/profile/
   [john gruber]: http://daringfireball.net/
   [@thomasfuchs]: http://twitter.com/thomasfuchs
   [1]: http://daringfireball.net/projects/markdown/
