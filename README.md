@@ -1,27 +1,18 @@
 Profiles
 =========
 
-Simple, HTML/CSS one page profile
+Profiles is simple professional profile made in HTML/CSS. The ideas in the design and purpose of Profiles are based on public discussions from [Ian Fenn] and [Jason Mesut].
 
-  - Type some Markdown text in the left window
-  - See the HTML in the right
-  - Magic
+* Standard portfolios only illustrate visual ability and ability to process deliverables
+* Ideas and methodology come across poorly in this way
+* Most portfolios focus on where you have been and what you have made
+* What is missing is how you got to the finished product and the results
 
+I'm not suggesting this design solves all of the above problems and it's far from complete. As such I'd appreciate any feedback.
 Profiles in use:
 
+If you'd like to use this project for your self that would be great. If you'd like to use this as a template and change it please do. If you do either of these I'd appreciate seeing the results and listing them here.
 * [Arran Ross-Paterson]
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable 
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text your see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.  
 
 Version
 -
@@ -31,8 +22,7 @@ Version
 Tech
 -----------
 
-Profiles currently only consists of HTML/CSS with the most minimal amount of Java Script. The CSS is created localy using the preprocessor LESS CSS. I'm looking at implmenting either octopress or jekyll for managing content.
-
+Profiles currently only consists of HTML/CSS with the most minimal amount of Java Script. The CSS is created locally using the preprocessor LESS CSS. I'm looking at implementing either octopress or jekyll for managing content.
 * [LESS] - The Dynamic Stylesheet language
 
 License
