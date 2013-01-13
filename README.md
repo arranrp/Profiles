@@ -32,14 +32,6 @@ MIT
 
 *Free Software, Fuck Yeah!*
   [Arran Ross-Paterson]: http://welikepie.com/profile/
-  [john gruber]: http://daringfireball.net/
-  [@thomasfuchs]: http://twitter.com/thomasfuchs
-  [1]: http://daringfireball.net/projects/markdown/
-  [showdown]: https://github.com/coreyti/showdown
-  [ace editor]: http://ace.ajax.org
-  [node.js]: http://nodejs.org
-  [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
-  [keymaster.js]: https://github.com/madrobby/keymaster
-  [jQuery]: http://jquery.com  
-  [@tjholowaychuk]: http://twitter.com/tjholowaychuk
-  [express]: http://expressjs.com
+  [Ian Fenn]: http://twitter.com/ifenn
+  [Jason Mesut]: http://twitter.com/jasonmesut
+  [LESS]: http://lesscss.org
