@@ -1,17 +1,17 @@
 Profiles
 =========
 
-Profiles is simple professional profile made in HTML/CSS. The ideas in the design and purpose of Profiles are based on public discussions from [Ian Fenn] and [Jason Mesut].
-
-* Standard portfolios only illustrate visual ability and ability to process deliverables
+Profiles is a simple professional profile made in HTML/CSS. The idea behind it is a result of conversations with [Ian Fenn] and [Jason Mesut]. Their key points could be summarised as follows:
+* Standard portfolios only illustrate visual skills and the ability to produce deliverables
 * Ideas and methodology come across poorly in this way
 * Most portfolios focus on where you have been and what you have made
 * What is missing is how you got to the finished product and the results
 
-I'm not suggesting this design solves all of the above problems and it's far from complete. As such I'd appreciate any feedback.
+Profiles attempts to help focus more on the parts that are often missing from standard portfolios. I'm not suggesting this design solves all of the above problems – it's far from complete, and as such I'd appreciate any feedback.
+
 Profiles in use:
 
-If you'd like to use this project for your self that would be great. If you'd like to use this as a template and change it please do. If you do either of these I'd appreciate seeing the results and listing them here.
+If you'd like to use this project for yourself that would be great. If you'd like to use this as a template and change it, then please do. If you do either of these I'd appreciate seeing the results and listing them here.
 * [Arran Ross-Paterson]
 
 Version
