@@ -278,7 +278,7 @@ ul.time-line li:nth-of-type(4n) {
 ul.time-line li:nth-of-type(5n) {
   border-color: #D6454F;
 }
-@media (max-width: 899px) {
+@media (max-width: 910px) {
   .wrapper {
     width: 100%;
   }
