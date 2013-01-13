@@ -95,6 +95,7 @@ header {
 	article {
 
 		float: left;
+		width: 100%;
 
 		h2 {
 			font-weight: 800;
@@ -257,92 +258,63 @@ ul.time-line {
 
 
 
-// standard desktop view - IE 
-@media (min-width: 980px) and (max-width: 1199px) {
-	.header_wrapper{
-		header {
-			width: 980px;
-			margin-left: -490px;
-			background-color: red;
-		}
-	}
-}
 
-// wide screen
-@media (min-width: 1200px) {
-	.header_wrapper{
-		header {
-			width: 1200px;
-			margin-left: -600px;
-			background-color: red;
-		}
-	}
-}
-
-
-// small screen 
-@media (min-width: 768px) and (max-width: 979px) {
-	.header_wrapper{
-		header {
-			width: 768px;
-			margin-left: -384px;
-			background-color: red;
-		}
-	}
-}
-
-// tablet
-@media (min-width: 481px) and (max-width: 767px) {
-	.header_wrapper{
-		header {
-			width: 100%;
-			margin-left: 0;
-			left: 0;	
-
-			nav {
-				height: 100%;
-				width: 100%;
-				left: 0;
-				top: 70px;
-				ul {
-					display: none;
-					width: 100%;
-					background-color: #ffffff;
-					li {
-						float: left;
-						display: block;
-						clear: left;
-						padding: 8px 48px;
-					}
-				}
-
-				&:hover {
-
-					ul {
-						display: block;
-					}
-				}
-			}
-		}
-	}
-}
 
 // mobile
-@media (max-width: 480px) {
-	.header_wrapper{
-		header {
-			width: 100%px;
-			left: 0;
-			margin-left: 0;
-			background-color: red;
+@media (max-width: 899px) {
+	
+	.wrapper {
+	width: 100%;
+		section { 
+			width:100%;
+		}
+	}
 
-			nav {
+	.content {
+		width: 100%;
 
-				ul {
-					display: none;
+		article {
+
+			float: left;
+			width: 100%;
+
+			h2 {
+				padding: 0 24px;
+			}
+
+			p {
+				padding: 0 24px;
+			}
+			ul {
+				padding: 0 24px;	
+				li {
+					width: 100%;
 				}
 			}
 		}
+	}
+
+	header {
+	height:240px;
+	padding: 0 24px;
+
+		hgroup {
+			width: 100%;
+			margin-top: 48px;
+		}
+		h1 {
+			font-size: 36px;
+		}
+		p {
+			font-size: 16px;
+			width: 200px
+		}
+
+	}
+	aside {
+	float: left;
+	width: 100%;
+	padding: 0 12px;
 	}
 
 }

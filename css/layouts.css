@@ -80,6 +80,7 @@ header p {
 }
 .content article {
   float: left;
+  width: 100%;
 }
 .content article h2 {
   font-weight: 800;
@@ -277,62 +278,50 @@ ul.time-line li:nth-of-type(4n) {
 ul.time-line li:nth-of-type(5n) {
   border-color: #D6454F;
 }
-@media (min-width: 980px) and (max-width: 1199px) {
-  .header_wrapper header {
-    width: 980px;
-    margin-left: -490px;
-    background-color: red;
-  }
-}
-@media (min-width: 1200px) {
-  .header_wrapper header {
-    width: 1200px;
-    margin-left: -600px;
-    background-color: red;
-  }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  .header_wrapper header {
-    width: 768px;
-    margin-left: -384px;
-    background-color: red;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .header_wrapper header {
+@media (max-width: 899px) {
+  .wrapper {
     width: 100%;
-    margin-left: 0;
-    left: 0;
   }
-  .header_wrapper header nav {
-    height: 100%;
+  .wrapper section {
     width: 100%;
-    left: 0;
-    top: 70px;
   }
-  .header_wrapper header nav ul {
-    display: none;
+  .content {
     width: 100%;
-    background-color: #ffffff;
   }
-  .header_wrapper header nav ul li {
+  .content article {
     float: left;
-    display: block;
-    clear: left;
-    padding: 8px 48px;
+    width: 100%;
   }
-  .header_wrapper header nav:hover ul {
-    display: block;
+  .content article h2 {
+    padding: 0 24px;
   }
-}
-@media (max-width: 480px) {
-  .header_wrapper header {
-    width: 100%px;
-    left: 0;
-    margin-left: 0;
-    background-color: red;
+  .content article p {
+    padding: 0 24px;
   }
-  .header_wrapper header nav ul {
-    display: none;
+  .content article ul {
+    padding: 0 24px;
+  }
+  .content article ul li {
+    width: 100%;
+  }
+  header {
+    height: 240px;
+    padding: 0 24px;
+  }
+  header hgroup {
+    width: 100%;
+    margin-top: 48px;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+    width: 200px;
+  }
+  aside {
+    float: left;
+    width: 100%;
+    padding: 0 12px;
   }
 }
