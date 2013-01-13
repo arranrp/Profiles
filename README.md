@@ -26,31 +26,14 @@ This text your see here is *actually* written in Markdown! To get a feel for Mar
 Version
 -
 
-2.0
+1.0
 
 Tech
 -----------
 
-Dillinger uses a number of open source projects to work properly:
+Profiles currently only consists of HTML/CSS with the most minimal amount of Java Script. The CSS is created localy using the preprocessor LESS CSS. I'm looking at implmenting either octopress or jekyll for managing content.
 
-* [Ace Editor] - awesome web-based text editor
-* [Showdown] - a port of Markdown to JavaScript
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh 
-
-Installation
---------------
-
-1. Clone the repo
-2. `cd dillinger`
-3. `npm i`
-4. `mkdir -p public/files`
-5. `mkdir -p public/files/md && mkdir -p public/files/html`
-6. `sudo node app`
-
+* [LESS] - The Dynamic Stylesheet language
 
 License
 -
